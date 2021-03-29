@@ -17,3 +17,4 @@ Repo to hold common config files foe editor, linting, etc
       1. Google offers no React support 🙄. Note: Standard is a no semi-colons operation.
    7. option 1 `JavaScript`
    8. install peer dependencies
+   9. The example `.eslintrc` file is for a browser/React environment. Regenerate for each project as needed.
