@@ -3,6 +3,9 @@
 #   https://robertcooper.me/post/elegant-development-experience-with-zsh-and-hyper-terminal
 #   https://tjay.dev/howto-my-terminal-shell-setup-hyper-js-zsh-starship/
 
+# currently using Starship for terminal goodness
+# need to download (homebrew ?) fast-syntax-highlighting package to ~/.zsh
+
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
