@@ -10,8 +10,8 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
 eval "$(starship init zsh)"
-source /Users/<USERNAME>/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source /Users/<USERNAME>/.zsh/completion.zsh
+source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $HOME/.zsh/completion.zsh
 
 # Load completion config
 source $HOME/.zsh/completion.zsh
@@ -28,12 +28,12 @@ else
 fi
 
 # command history 
-source /Users/<USERNAME>/.zsh/history.zsh
+source $HOME/.zsh/history.zsh
 
 # default open to repos dir
 cd ~/repos
 
-source /Users/<USERNAME>/.zsh/aliases.zsh
+source $HOME/.zsh/aliases.zsh
 
 # add typora command to cli
 alias typora="open -a typora"
